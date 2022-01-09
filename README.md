@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NotesOnTheGo is react app created using MERN stack that can be used to store and retrieve your notes, todo list, watchlist etc.. on and from the web.
+The site is live on https://notes-on-the-go.herokuapp.com/
+
+
+## Running the app locally
+
+To run the app locally you can run the fronted (the api created is also hosted seperately) or frontend and backend both which is provided at https://github.com/sharma-tanishq/NotesOnTheGo-Backend
 
 ## Available Scripts
 
