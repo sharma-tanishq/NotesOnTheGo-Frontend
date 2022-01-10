@@ -61,6 +61,8 @@ function LoginForm() {
                     <input type="password" required={true} id="password" value={credentials.password} onChange={onChange} className="w-full mb-3 p-2 border-2 rounded-lg border-gray-400 outline-none focus:border-yellow-500" placeholder='Please enter your password' />
                     <button type="submit" className='m-auto flex bg-yellow-500 px-5 py-2 rounded-xl shadow-md font-bold hover:text-neutral-100'>Submit</button>
                 </form>
+                <h1 className='text-xl mt-7 mb-7 justify-center flex items-center font-bold'>New to NewsOnTheGo create a account</h1>
+                <button onClick={()=>navigate("/signup")} className='m-auto flex bg-yellow-500 px-5 py-2 rounded-xl shadow-md font-bold hover:text-neutral-100'>SignUp</button>
             </div>
             <ToastContainer />
         </>
